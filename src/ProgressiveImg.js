@@ -9,7 +9,8 @@ class ProgressiveImg extends Component {
         super(props);
         this.state = {
             loading: true,
-            sLoading: true
+            sLoading: true,
+            error: false
         };
     }
     componentDidMount() {
