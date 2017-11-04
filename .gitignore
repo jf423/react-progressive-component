@@ -21,3 +21,6 @@ yarn-error.log*
 .DS_Store
 .lock
 npm-debug.log*
+
+# lint
+.eslintcache
