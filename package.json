@@ -5,8 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "NODE_ENV=production babel src --presets es2015,react --out-dir lib",
     "clean": "rm -rf lib && rm -rf node_modules",
+    "build": "NODE_ENV=production babel src --out-dir lib",
     "storybook": "start-storybook -p 6006",
     "deploy-storybook": "storybook-to-ghpages",
     "lint": "eslint ./src",
