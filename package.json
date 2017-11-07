@@ -4,9 +4,9 @@
   "description": "A collection of progressive loading effect with react.",
   "main": "lib/index.js",
   "scripts": {
-    "clean": "rm -rf lib && rm -rf node_modules && rm yarn.lock",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production babel src --presets es2015,react --out-dir lib",
+    "clean": "rm -rf lib && rm -rf node_modules",
     "storybook": "start-storybook -p 6006",
     "deploy-storybook": "storybook-to-ghpages",
     "lint": "eslint ./src",
